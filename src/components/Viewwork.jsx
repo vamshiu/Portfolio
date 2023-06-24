@@ -2,7 +2,7 @@ import React from 'react'
 import work from "../assets/work.png";
 function Viewwork() {
   return (
-    <div className='w-full h-screen flex flex-col justify-center items-center bg-black pb-5'name='work'>
+    <div className='w-full h-screen flex flex-col justify-center items-center bg-black px-5'name='work'>
         <h1 className='text-white font-bold text-4xl border-b-2 border-[#ffff00]'>My Work</h1>
         <h1 className='text-[#ffff00] my-10'>An Expense Tracker application made using React and Firebase.</h1>
         <div className='flex items-center justify-center max-w-[1000px] group '>

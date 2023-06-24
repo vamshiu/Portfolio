@@ -6,13 +6,12 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div>
+    <div className="bg-black">
       
       <Navbar />
       <Home />
       <Viewwork />
       <About />
-      
       <Contact />
 
       
