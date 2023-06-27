@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const Home = () => {
   return (
-    <div className='bg-black w-full h-screen ' name='Home'>
+    <div className='bg-black w-full h-screen' name='Home'>
         <Fade top big>
         <div className='flex flex-col justify-center h-screen max-w-[1000px] mx-auto px-8 '>
             <p className='text-[#ffff00]'>Hi, my name is</p>

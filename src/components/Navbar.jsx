@@ -7,7 +7,7 @@ const Navbar = () => {
     const[nav,setNav]=useState(false)
     const handleClick=() => setNav(!nav)
   return (
-    <div name='barb' className='fixed w-full h-[80px] flex  bg-black text-gray-300 items-center justify-between z-20'>
+    <div name='barb' className='fixed w-full h-[80px] flex  bg-black text-gray-300 items-center justify-between z-10'>
       <div>
         <ul className='fixed right-0 hidden md:flex' >
             <li><Link to="Home"smooth={true} offset={50} duration={500}>
