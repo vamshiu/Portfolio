@@ -40,8 +40,12 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="Home"smooth={true} offset={50} duration={500}>
               Home
             </Link></li>
-             <li className='py-6 text-4xl'>About</li>
-             <li className='py-6 text-4xl'>Skills </li>
+             <li className='py-6 text-4xl'> <li className='py-6 text-4xl'><Link onClick={handleClick} to="about"smooth={true} offset={50} duration={500}>
+              About
+            </Link></li></li>
+             <li className='py-6 text-4xl'> <li className='py-6 text-4xl'><Link onClick={handleClick} to="work"smooth={true} offset={50} duration={500}>
+              Projects
+            </Link></li> </li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="Contact"smooth={true} offset={50} duration={500}>
               Contact
             </Link></li>
