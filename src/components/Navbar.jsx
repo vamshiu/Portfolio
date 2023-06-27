@@ -7,7 +7,7 @@ const Navbar = () => {
     const[nav,setNav]=useState(false)
     const handleClick=() => setNav(!nav)
   return (
-    <div name='barb' className='fixed w-full h-[80px] flex  bg-black text-gray-300 items-center justify-between '>
+    <div name='barb' className='fixed w-full h-[80px] flex  bg-black text-gray-300 items-center justify-between z-20'>
       <div>
         <ul className='fixed right-0 hidden md:flex' >
             <li><Link to="Home"smooth={true} offset={50} duration={500}>
@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
       {/* hammy button */}
-      <div onClick={handleClick}  className='md:hidden z-10 '>
+      <div onClick={handleClick}  className='md:hidden z-10 hover:cursor-pointer'>
         {!nav? <FaBars/> : <FaTimes/>}
       </div>
 

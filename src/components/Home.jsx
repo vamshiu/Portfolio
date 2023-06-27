@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='bg-black w-full h-screen ' name='Home'>
         <Fade top big>
-        <div className='flex flex-col justify-center h-full max-w-[1000px] mx-auto px-8 '>
+        <div className='flex flex-col justify-center h-screen max-w-[1000px] mx-auto px-8 '>
             <p className='text-[#ffff00]'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-9xl font-bold text-white'>U Vamshi</h1>
             <p className='text-white'>This is my portfolio project using react.</p>
